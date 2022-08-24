@@ -9,9 +9,8 @@ Agenda:
 - Loosely Types vs Strictly Types Languages: DONE
 - JDK, JVM, JRE: DONE
 - Variables and Constants: DONE
-
-- Objects and Classes
-- OOPS
+- Objects and Classes: DONE
+- OOPs
 
 "Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
 
@@ -55,7 +54,15 @@ Eg:
 Class: Tesla
 Object: Model 3, Model S, Model Y etc
 
+Eg:
 
+Class And Object Analogy:
+
+Printer:
+
+Image: Class
+Printout: Object
+100 Printouts : 100 Objects = Each With Same Structures, Values can be different
 
 
 Class 
