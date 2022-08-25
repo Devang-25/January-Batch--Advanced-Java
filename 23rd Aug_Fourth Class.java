@@ -53,8 +53,8 @@ A: Parent Class/ Superclass / Base Class
 
 Real Life Example:
 
-iOS: 15.5
-iOS: 15.6 = iOS 15.5 Features + New Features
+iOS: 15.5: Parent
+iOS: 15.6 = iOS 15.5 Features + New Features: Child
 
 
 
@@ -424,6 +424,141 @@ OP:
 Employee ID: 1 Name: John
 Employee ID: 2 Name: Undertaker
 Company Name: Google
+
+
+
+
+
+Memory Diagram:
+
+Stack: Static Memory/ Compile Time Memory / In Memory
+
+Heap: Dynamic Memory / Run Time Memory / Auxiliary Memory
+
+
+
+
+
+Stack:
+
+e1
+e2
+
+Heap: 
+
+
+{
+  id = 1, // 4 Bytes
+  name = "John" // 8 Bytes
+}
+
+// e1: 12 Bytes
+
+{
+  id = 2, // 4 Bytes
+  name = "Undertaker" // 20 Bytes
+}
+
+// e2: 24 Bytes
+
+
+Class Area : (Part of Heap Memory)
+companyName = "Google"; // 12 Bytes -> ONLY ONCE
+
+
+"Static Variables are STORED Only ONCE in Class Area irrespective of number of objects"
+"Non Static variables are Created Everytime an Object is created"
+
+
+
+
+Proof:
+
+Static variables gets Memory ONLY ONCE in Class Area
+Non Static variables gets Memory Everytime an Object is Created in Class Area
+
+
+
+CODE:
+
+
+class Counter
+{
+    int count = 0; // non-static variable - created once per object
+    
+    Counter()
+    {
+        ++count; // 1 -> 1 -> 1
+        System.out.println("Counter: " + count);
+    }    
+}
+
+class Counter_Static
+{
+    static int count = 0; // static variable - created ONLY once
+    
+    Counter_Static()
+    {
+        ++count; // 1 -> 2 -> 3
+        System.out.println("Counter: " + count);
+    }    
+}
+
+
+class Main
+{
+    public static void main(String[] args)
+    {
+        Counter c1 = new Counter(); // 1
+        Counter c2 = new Counter(); // 1
+        Counter c3 = new Counter(); // 1
+        
+        System.out.println(" ");
+        
+        Counter_Static cs1 = new Counter_Static(); // 1
+        Counter_Static cs2 = new Counter_Static(); // 2
+        Counter_Static cs3 = new Counter_Static(); // 3
+        
+        
+    }
+}
+
+
+
+OP:
+
+Counter: 1
+Counter: 1
+Counter: 1
+ 
+Counter: 1
+Counter: 2
+Counter: 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
