@@ -52,6 +52,7 @@ static int sumofNumbers(int a, int b)
 Properties:
 
 - Static Method belongs to Class instead of object of class
+
 - Static method can be invoked without creating an object
 
 OR
@@ -155,7 +156,7 @@ Company Name: Facebook
   }
 
 
-  public  void main(String[] args)
+  public void main(String[] args)
   {  
 
   }
@@ -354,5 +355,136 @@ OP:
 
 Employee ID: 5 Name: Person
 Employee ID: 5 Name: Person
+
+
+
+
+
+
+
+
+
+
+
+(3) Without using this Instance Variable and local variable --> DIFFERENT NAMES
+this --> Not Required
+
+
+
+
+class Employee
+{ 
+  int emp_id = 5; // non- static variable
+  String name = "Person"; // non- static variable
+    
+  Employee(int e, String n) // local variable
+  {
+    emp_id = e;  // e: 1 -> empId = 1
+    name = n;  // n : John -> name: John      
+  }
+
+  void display() // non- static method
+  {
+    System.out.println("Employee ID: " + emp_id +  " Name: " + name);
+  }
+    
+}
+
+
+class Main
+{
+  public static void main(String[] args)
+  {  
+    Employee e1 = new Employee(1, "John");
+    Employee e2 = new Employee(2, "Cena");
+
+    e1.display(); // Non Static Method -- Use By Object Name
+    e2.display(); // Non Static Method -- Use By Object Name      
+  }
+}
+
+OP:
+
+Employee ID: 1 Name: John
+Employee ID: 2 Name: Cena
+
+
+
+
+
+(3) Instance Variable and local variable --> SAME NAMES
+this --> Required
+
+
+
+
+class Employee
+{ 
+  int emp_id = 5; // non- static variable
+  String name = "Person"; // non- static variable
+    
+  Employee(int emp_id, String name) // local variable
+  {
+    this.emp_id = emp_id;  // e1.emp_id = 1
+    this.name = name;  // e1.name = John      
+  }
+
+  void display() // non- static method
+  {
+    System.out.println("Employee ID: " + emp_id +  " Name: " + name);
+  }
+    
+}
+
+
+class Main
+{
+  public static void main(String[] args)
+  {  
+    Employee e1 = new Employee(1, "John");
+    Employee e2 = new Employee(2, "Cena");
+
+    e1.display(); // Non Static Method -- Use By Object Name
+    e2.display(); // Non Static Method -- Use By Object Name      
+  }
+}
+
+
+
+
+OP:
+
+
+Employee ID: 5 Name: Person
+Employee ID: 5 Name: Person
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
