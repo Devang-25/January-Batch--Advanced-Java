@@ -96,9 +96,9 @@ Ways to Achieve Abstraction in Java?
 (3) It CANNOT be Instantiated
 Simple Terms: CANNOT Make/Create Objects of Abstract Class
 
-(4) It MUST be Extended and Implement its abstract method by child class
+(4) It MUST be Extended and Implement its abstract method by child class object
 
-(5) It can have constuctors and static methods also - IMP (Asked in Interview)
+(5) It can have constructors and static methods also - IMP (Asked in Interview)
 
 (6) It can have FINAL methods
 - CANNOT Modify the method in child class
@@ -244,7 +244,7 @@ Child Class -> Implementation of Template / Placeholder
 
 Note:
 
-Static Method: Common to Class, Not Specific to Ebery Object
+Static Method: Common to Class, Not Specific to Every Object
 Abstract Method: Specific to Every Child Class
 
 
@@ -343,6 +343,8 @@ Bank Constructor
 SBI Constructor 
 SBI: 6
 Fiscal Rate: 10
+
+
 Bank Constructor 
 HSBC Constructor 
 HSBC: 8
@@ -357,7 +359,7 @@ Note:
 
 (1) Abstract Methods: Specific to Each Child Class
 
-Eg: Rate of Interest os Specific to Each Bank
+Eg: Rate of Interest is Specific to Each Bank
 
 
 (2) Non - Abstract Methods: Common to Each Child Class
