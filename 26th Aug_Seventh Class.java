@@ -79,6 +79,7 @@ A (Parent)  ---> B (Child) ---> C (Child of B) -> D (Child of C)
 
 Multilevel Inheritance
 
+C obj = new C();
 
 
 Order of Invocation of Destructors: C -> B -> A
@@ -149,8 +150,8 @@ Processed Code By Compiler:
 
 interface devang
 {
-  public static final int val = 5;
-  public abstract void show();
+  public static final int val = 5; // Data Member: Constant
+  public abstract void show(); // Member Function: abstract
 }
 
 
