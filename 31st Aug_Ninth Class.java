@@ -61,7 +61,7 @@ Types of Modifiers:
 
 (1) Access Modifiers
 
-- Specifies the Access or Scope of a :
+- Specifies/Modifies the Access or Scope of a :
 (A) data/field
 (B) method
 (C) Constructor
@@ -136,7 +136,15 @@ Outside Package by Object of Same Class: YES
 
 
 
+Order of RESTRICTIVENES:
 
+public < protected < default < private
+
+
+
+Order of Freedom in Usage:
+
+public > protected > default > private
 
 
 
@@ -295,13 +303,13 @@ class Model extends Tesla
 (2) Default
 
 
-If No Modifier is given to a data meember or member function, 
+If No Modifier is given to a data member or member function, 
 Then it behaves as default access type
 
 
 
 Access Level: Within the Package
-It cannot be accessed from Ouside the Package
+It cannot be accessed from Outside the Package
 
 
 CODE:
@@ -636,6 +644,5 @@ Hey!
 
 
 
-TODO: Interview Question on Access Specifiers
 
 
