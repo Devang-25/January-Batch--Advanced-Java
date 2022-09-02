@@ -37,7 +37,7 @@ Agenda:
 - JDBC
 - Spring
 - Spring Boot
-
+- SQL
 
 "Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
 
@@ -54,14 +54,13 @@ public < protected < default < private
 
 
 
-Order of Freedom in Usage:
+Order of Freedom/Previlige in Usage:
 
 public > protected > default > private
 
 
 
 
-TODO: Interview Question on Access Specifiers
 
 Answer: "Child Should Have More Access than Parent"
 
@@ -468,7 +467,7 @@ A JDBC Driver is a Software which allows Java Application to connect and interac
 
 - This Driver uses ODBC Drivers to connect to database
 - This JDBC-ODBC Bridge Converts JDBC Method Calls into ODBC Function Calls
-- Not used nowadays, Thin Drivers are Preferred
+- Not used nowadays more, Thin Drivers are Preferred
 
 
 
