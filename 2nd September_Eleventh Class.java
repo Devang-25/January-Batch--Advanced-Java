@@ -109,7 +109,7 @@ Software that lies between an OS and the Applications running in it
 Eg:
 
 OS ----------------------    Middleware   ------------- Applications
-(Windows/Mac)
+(Windows/Mac/iOS/Android/Blackberry)
 
 
 
@@ -158,7 +158,7 @@ Few features Are Accesible for particular Geo Locations.
 
 Fin-Tech/Tech Companies are Subjected to Govt Compliances as per Geo Location
 
-Eg: Tiktok, Binomo - Not Allowed in India
+Eg: Tiktok - Not Allowed in India
 
 
 Eg:
@@ -306,6 +306,9 @@ con.close();
 
 
 
+
+
+
 ------> SQL:
 
 
@@ -387,7 +390,7 @@ A
 
 (B) Using Alias (Another Name)
 
-SELECT Name as STUDENT_NAME FROM Student;
+SELECT Name AS STUDENT_NAME FROM Student;
 
 OP:
 
