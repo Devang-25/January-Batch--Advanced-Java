@@ -1,0 +1,76 @@
+Questions Prepared By: DEVANG SHARMA
+All Rights Owned and Reserved By: DEVANG SHARMA
+
+
+CORE Java Interview Questions:
+
+1.   Can we override static method in java?
+2.   Can you overload main method in java?
+3. Can we override private methods in java?
+4. What is the base class for all the classes?
+5.   Can you list down some of important method from object class?
+6.   Which two methods should you override while putting the custom object as Key in HashMap?
+7.  What is the difference between HashMap and HashSet in java?
+8. Can we have abstract class without having any abstract method in it?
+9. Have you heard about transient variable? When will you use it?
+10. Can you call start method twice in java?
+11. Do you know why String is immutable in java?
+12. Do you know how to make a class immutable? Can you provide steps for it?
+13. Can we have static method in the interface?
+14. Can you declare constructor final?
+15. What is the difference between StringBuffer and StringBuilder?
+16. What is Java ClassPath?
+17. You have a list of Custom objects? How can you sort them?
+18. What is volatile in java?
+19. What are two different ways to call garbage collector?
+20. What is marker interface in java? Can you provide some examples of marker interface?
+21. How many objects will be created below:
+22. Can you differentiate between Checked Exception and Unchecked exception?
+23. What is the difference between ArrayList and LinkedList? How will you decide which one you need to use?
+24. What is difference between wait and sleep in java?
+25. You have started three threads from main threads.You need to make sure main thread complete last. How will you do it?
+
+
+
+
+
+
+
+
+
+Spring Boot Interview Questions:
+
+
+(1) Spring vs Spring Boot
+(2) What is Spring Boot and mention the need for it?
+(3) Mention the advantages of Spring Boot
+(4) Mention a few features of Spring Boot.
+(5) Explain how to create a Spring Boot application using Maven.
+(6) Mention the possible sources of external configuration.
+(7) Can you explain what happens in the background when a Spring Boot Application is “Run as Java Application”?
+(8) What are the Spring Boot starters and what are the available starters?
+(9) Explain Spring Actuator and its advantages.
+(10) What is Spring Boot dependency management?
+(11) What are the Spring Boot Annotations?
+(12) What are the Spring Boot properties?
+(13) What are the Spring Boot Starters?
+(14) What is @RequestMapping annotation in Spring Boot?
+(15) What is @RestController annotation in Spring Boot?
+(16) How to connect Spring Boot application to database using JDBC?
+(17) What is Spring Boot Actuator?
+(18) How to connect Spring Boot to the database using JPA?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
